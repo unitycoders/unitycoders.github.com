@@ -25,6 +25,15 @@ article {
 	margin-top: 1em;
 }
 
+article h2 {
+	font-family: sans-serif;
+}
+
+article h2 a {
+	color: #8f5902;
+	text-decoration: none;
+}
+
 article.dead {
 	opacity: 0.4;
 	background-color: #babdb6; 
