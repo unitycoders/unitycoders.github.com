@@ -26,5 +26,6 @@ article {
 }
 
 article.dead {
+	opacity: 0.4;
 	background-color: #babdb6; 
 }
