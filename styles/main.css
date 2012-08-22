@@ -3,9 +3,15 @@ body {
 }
 
 header {
+    padding: 0.5em;
 	color: #2e3436;
 	background-color: #729fcf;
-	border-bottom: 1em solid #2e3436;
+	border-bottom: 0.5em solid #204a87;
+}
+
+header img {
+    float: left;
+    width: 95px;
 }
 
 header a {
@@ -15,10 +21,49 @@ header a {
 }
 
 header h1 {
+    margin-top: 0em;
 	margin-bottom: 0em;
 }
 
+ul#menubar {
+    clear: both;
+    display: block;
+    margin: 0.5em;
+    background-color: #2e3436;
+    line-height: 2em;
+    height: 2em;
+    border-radius: 1em;
+    padding: 0em 0.75em;
+}
+
+#menubar li {
+    margin: 0em;
+    padding: 0em;
+    float: left;
+    display: inline;
+    list-style-type: none;
+    color: #eeeeec;
+}
+
+#menubar li a {
+    padding: 0em 0.5em;
+    display: block;
+    line-height: 2em;
+    height: 2em;
+    color: #eeeeec;
+    text-decoration: none;
+    border-left: 1px dotted #eeeeec;
+}
+
+#menubar li a:hover {
+    background-color: #729fcf;
+}
+
+#menubar li:last-child a {
+    border-right: 1px dotted #eeeeec;
+}
 article {
+    clear: both;
 	border: 1px solid #2e3436;
 	background-color: #ffffff;
 	padding: 0.5em;
